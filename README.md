@@ -163,6 +163,8 @@ cp /mnt/c/Users/Svitlana/.ssh/id_rsa ~/.ssh/id_rsa
 cp /mnt/c/Users/Svitlana/.ssh/id_rsa.pub ~/.ssh/id_rsa.pub
 chmod 600 ~/.ssh/id_rsa
 
+![Add_SSH](Screens/6.1_UBUNTU_Add_SSH_Key.png) 
+
 ### 2️⃣ Перевірка SSH підключення
 ssh -i ~/.ssh/id_rsa ubuntu@<PUBLIC_IP>
 
