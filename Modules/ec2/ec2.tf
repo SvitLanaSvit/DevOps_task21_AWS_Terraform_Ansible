@@ -1,12 +1,3 @@
-# resource "aws_key_pair" "main" {
-#   key_name   = "${var.project_name}-key"
-#   public_key = var.public_key_content
-
-#   tags = {
-#     Name = "${var.project_name}-key-pair"
-#   }
-# }
-
 resource "aws_instance" "nginx" {
   count         = 2
   ami           = var.ami_id
