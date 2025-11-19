@@ -1,7 +1,0 @@
-[nginx]
-63.180.234.179
-18.153.66.119
-
-[nginx:vars]
-ansible_user=ubuntu
-ansible_ssh_private_key_file=~/.ssh/id_rsa
