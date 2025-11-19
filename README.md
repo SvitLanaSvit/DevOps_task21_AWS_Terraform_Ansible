@@ -226,16 +226,17 @@ aws configure list-profiles
 ## Результати виконання
 Нижче наведені скріншоти, що демонструють успішне створення інфраструктури та доступ до Nginx:
 
-| №     | Опис                          | Скриншот                                                      |
-|-------|-------------------------------|---------------------------------------------------------------|
-| 7.1   | EC2_2 інстанс у AWS Console             | ![EC2](Screens/7.1_result_ec2_2.png)                |
-| 7.2   | Security Group для EC2                  | ![EC2 SG](Screens/7.2_result_ec2_2_sg.png)          |
-| 7.3   | EC2_1 інстанс у AWS Console             | ![EC2](Screens/7.3_result_ec2_1.png)                |
-| 7.4   | Security Group для EC2                  | ![EC2 SG](Screens/7.4_result_ec2_1_sg.png)          |
-| 7.5   | Запуск Ansible playbook (перший сервер) | ![Ansible](Screens/7.5_Result_Ansible_1.png)        |
-| 7.6   | Запуск Ansible playbook (другий сервер) | ![Ansible](Screens/7.6_Result_Ansible_2png)         |
-| 7.7   | Доступ до Nginx на EC2_1 через браузер  | ![Nginx_1](Screens/7.7_Result_Nginx_1.png)          |
-| 6.5.3 | Доступ до Nginx на EC2_2 через браузер  | ![Nginx_2](Screens/7.8_Result_Nginx_2.png)          |
+| №     | Опис                                    | Скриншот                                                   |
+|-------|-----------------------------------------|------------------------------------------------------------|
+| 7.1   | EC2_2 інстанс у AWS Console             | ![EC2](Screens/7.1_result_ec2_2.png)                       |
+| 7.2   | Security Group для EC2                  | ![EC2 SG](Screens/7.2_result_ec2_2_sg.png)                 |
+| 7.3   | EC2_1 інстанс у AWS Console             | ![EC2](Screens/7.3_result_ec2_1.png)                       |
+| 7.4   | Security Group для EC2                  | ![EC2 SG](Screens/7.4_result_ec2_1_sg.png)                 |
+| 7.5   | Запуск Ansible playbook (перший сервер) | ![Ansible](Screens/7.5_Result_Ansible_1.png)               |
+| 7.6   | Запуск Ansible playbook (другий сервер) | ![Ansible](Screens/7.6_Result_Ansible_2.png)               |
+| 7.7   | Доступ до Nginx на EC2_1 через браузер  | ![Nginx_1](Screens/7.7_Result_Nginx_1.png)                 |
+| 7.8   | Доступ до Nginx на EC2_2 через браузер  | ![Nginx_2](Screens/7.8_Result_Nginx_2.png)                 |
+| 8.1   | Terraform destroy                       | ![Terraform_destroy](Screens/8.1_8.1_terraform_destroy.png)|
 
 
 ## 📚 Корисні посилання
