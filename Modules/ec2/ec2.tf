@@ -1,0 +1,19 @@
+# resource "aws_key_pair" "main" {
+#   key_name   = "${var.project_name}-key"
+#   public_key = var.public_key_content
+
+#   tags = {
+#     Name = "${var.project_name}-key-pair"
+#   }
+# }
+
+resource "aws_instance" "nginx" {
+  count         = 2
+  ami           = var.ami_id
+  instance_type = var.instance_type
+  subnet_id     = var.subnet_id
+  vpc_security_group_ids = [var.security_group_id]
+  associate_public_ip_address = true
+  key_name      = var.key_name
+  tags = merge(var.common_tags, { "Name" = "ec2-${count.index + 1}" })
+}

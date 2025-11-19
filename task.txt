@@ -1,0 +1,64 @@
+AWS Terraform та Ansible
+Завдання
+Створіть код Terraform, який запускає два екземпляри EC2.
+
+Terraform має автоматично створювати файл інвентаризації Ansible.
+
+Напишіть Ansible playbook, який:
+
+встановлює Docker;
+встановлює Docker Compose;
+завантажує образ Nginx;
+запускає Nginx за допомогою Docker Compose.
+Застосуйте Ansible playbook вручну. Він повинен розгорнути все на обох EC2-екземплярах.
+
+
+Для читання:
+Getting Started with Ansible
+Ansible Inventory Guide
+Get Docker
+Install Docker Compose
+
+ENG:
+
+
+AWS Terraform and Ansible Exercise
+Task
+Create Terraform code to run two EC2 instances
+
+Terraform must automatically prepare an Ansible inventory file
+
+Write an Ansible playbook that:
+
+
+
+Installs Docker
+Installs Docker Compose
+Pulls the Nginx image
+Runs Nginx with Docker Compose
+Apply the Ansible playbook manually. It should deploy everything on both EC2 instances
+
+
+
+
+
+To Read
+Getting Started with Ansible
+Ansible Inventory Guide
+Get Docker
+Install Docker Compose
+
+
+
+
+Формат здачі ДЗ:
+
+1. Код з створенням всього по завданню
+
+2. Код Ansible inventory, який створиться
+
+3. Код Ansible playbook yaml file
+
+4. Скріни розгортання інфраструктури, роботи Ansible, результат підняття (зайти в браузері на відповідні веб сторінки)
+
+5. Скріни видалення всього створеного
