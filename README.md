@@ -236,7 +236,7 @@ aws configure list-profiles
 | 7.6   | Запуск Ansible playbook (другий сервер) | ![Ansible](Screens/7.6_Result_Ansible_2.png)               |
 | 7.7   | Доступ до Nginx на EC2_1 через браузер  | ![Nginx_1](Screens/7.7_Result_Nginx_1.png)                 |
 | 7.8   | Доступ до Nginx на EC2_2 через браузер  | ![Nginx_2](Screens/7.8_Result_Nginx_2.png)                 |
-| 8.1   | Terraform destroy                       | ![Terraform_destroy](Screens/8.1_8.1_terraform_destroy.png)|
+| 8.1   | Terraform destroy                       | ![Terraform_destroy](Screens/8.1_terraform_destroy.png)    |
 
 
 ## 📚 Корисні посилання
